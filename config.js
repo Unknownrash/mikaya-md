@@ -18,7 +18,7 @@ module.exports = {
   BASE_URL: "https://worthwhile-mandy-c-iph3r.koyeb.app/",
   API_URL: "https://alpha-apis.vercel.app/",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCZIqhWvQZ54K2Bjk418vbg7kO6zichY6c",
-  REPO: "C-iph3r/alpha-md",
+  REPO: "C-iph3r/rash-md",
   TZ: process.env.TZ || "Africa/lagos",  // leave if you dont know what youre doing
   REJECT_CALL: toBool(process.env.REJECT_CALL || "false"),
   BADWORD_BLOCK: toBool(process.env.BADWORD_BLOCK || "false"),
@@ -41,8 +41,8 @@ module.exports = {
   LANG: process.env.LANG || "en",
   PERSONAL_MESSAGE: process.env.PERSONAL_MESSAGE || "null",
   BOT_PRESENCE: process.env.BOT_PRESENCE || "", //available , composing, recording, paused 
-  AUDIO_DATA: process.env.AUDIO_DATA || "alpha-md;C-iph3r;https://i.imgur.com/nXqqjPL.jpg",
-  STICKER_DATA: process.env.STICKER_DATA || "C-iph3r;alpha-md",
+  AUDIO_DATA: process.env.AUDIO_DATA || "rash-md;C-iph3r;https://i.imgur.com/nXqqjPL.jpg",
+  STICKER_DATA: process.env.STICKER_DATA || "C-iph3r;rash-md",
   SUDO: process.env.SUDO || "",// add sudo numbers here seperated by a comma(,) after each
   RMBG_KEY: process.env.RMBG_KEY,
   OPEN_AI: process.env.OPEN_AI,
